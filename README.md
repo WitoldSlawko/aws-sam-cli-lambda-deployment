@@ -34,4 +34,4 @@ Environmental variables are defined in YAML templates per environment. You can a
 ## Deployment
 
 To deploy changes use CI plan. If you have the right credentials you can also do it locally:
-`sam deploy --template-file .aws-sam/build/template_{ENV}.yaml --region us-east-1 --stack-name opsc-${ENV} --s3-bucket opsc --s3-prefix {ENV} --capabilities CAPABILITY_IAM --no-confirm-changeset`
+`sam deploy --template-file .aws-sam/build/template.yaml --region us-east-1 --stack-name execution-function-stack --s3-bucket desired-s3-bucket-static-backup --s3-prefix prefix-name  --capabilities CAPABILITY_IAM --no-confirm-changeset`
