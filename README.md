@@ -19,13 +19,13 @@ Before first build remember to install dependencies using `npm run i` command.
 ## Local debugging
 
 1. Build your application with the `npm run build` command. Use `npm run watch` for automatic rebuilding. The command will also generate VSCode debugging configs.
-2. Run functions locally and invoke them with the `sam local invoke {FUNCTION_NAME} -d 5858 -e events/default.json --template-file .aws-sam/build/template_{ENV}.yaml` command.
+2. Run functions locally and invoke them with the `sam local invoke {FUNCTION_NAME} -d 5858 -e events/default.json --template-file .aws-sam/build/template.yaml` command.
    The function name is the one defined in template YAML. The event file contains an exmaple request specification. ENV can be either DVL, STG or PROD.
 3. Add breakpoints to app.ts files in /src folder.
 4. Run debug session using previously generated config file.
 
 If you don't need to use breakpoints you can run all functions locally and make requests to them using other tools (like for example Fiddler).
-To do that use `sam local start-api --template-file .aws-sam/build/template_{ENV}.yaml` command.
+To do that use `sam local start-api --template-file .aws-sam/build/template.yaml` command.
 
 ## Environmental variables
 
