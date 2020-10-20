@@ -3,7 +3,7 @@ deploying lambda functions with ease by AWS SAM
 
 ---
 
-# SmartChart Export Service
+# Serverless Service
 
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI.
 
