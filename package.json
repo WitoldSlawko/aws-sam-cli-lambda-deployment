@@ -9,7 +9,7 @@
     "prewatch": "rimraf .aws-sam .vscode"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.33",
+    "@types/aws-lambda": "^8.10.76",
     "@types/node": "^12.11.1",
     "@types/node-fetch": "^2.5.7",
     "aws-sam-webpack-plugin": "^0.3.1",
@@ -19,7 +19,7 @@
     "webpack-cli": "^3.3.9"
   },
   "dependencies": {
-    "aws-sdk": "^2.553.0",
+    "aws-sdk": "^2.914.0",
     "node-fetch": "^2.6.0",
     "source-map-support": "^0.5.13"
   }
